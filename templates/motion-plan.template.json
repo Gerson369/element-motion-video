@@ -1,0 +1,21 @@
+{
+  "title": "<视频标题>",
+  "fps": 30,
+  "durationInFrames": 0,
+  "anchors": ["<全片保持不动的锚点，例如顶部标题>"],
+  "beats": [
+    {
+      "id": "A",
+      "frames": [0, 90],
+      "explain": "<这一拍让观众明白什么>",
+      "device": "text.word-reveal | number.rolling | number.count | number.progress | time.clock-roll | time.countdown | diagram.flow | diagram.arrow | diagram.checklist | layout.transfer | layout.give-way | none",
+      "then": "<下一拍如何承接：缩成角标 / 上移让位 / 搬运 / 退场>"
+    }
+  ],
+  "captions": [
+    {"text": "<完整字幕句>", "from": 0, "to": 90}
+  ],
+  "checks": [
+    {"frame": 0, "id": "<data-emv-id>", "expect": "<该帧应显示的值>"}
+  ]
+}

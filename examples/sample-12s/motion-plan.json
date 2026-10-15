@@ -1,0 +1,109 @@
+{
+  "title": "邮件变待办（示例，数据为演示假设）",
+  "fps": 30,
+  "durationInFrames": 375,
+  "anchors": [
+    "headline stays as top anchor",
+    "stats shrink into chips, never cut away"
+  ],
+  "beats": [
+    {
+      "id": "A",
+      "frames": [
+        0,
+        90
+      ],
+      "explain": "提出处境",
+      "device": "text.word-reveal + keyword marker",
+      "then": "headline moves up to give way"
+    },
+    {
+      "id": "B",
+      "frames": [
+        90,
+        180
+      ],
+      "explain": "量有多大",
+      "device": "number.rolling + progress synced",
+      "then": "group shrinks into chip"
+    },
+    {
+      "id": "C",
+      "frames": [
+        180,
+        262
+      ],
+      "explain": "花多少时间",
+      "device": "time.clock-roll 00:48 -> 01:00",
+      "then": "clock shrinks into chip"
+    },
+    {
+      "id": "D",
+      "frames": [
+        262,
+        375
+      ],
+      "explain": "怎么处理",
+      "device": "diagram.transfer + arrow + checklist"
+    }
+  ],
+  "captions": [
+    {
+      "text": "你是不是每天都被邮件追着跑？",
+      "from": 0,
+      "to": 88
+    },
+    {
+      "text": "假设一天收到 128 封邮件，",
+      "from": 90,
+      "to": 135
+    },
+    {
+      "text": "其中 76% 需要你亲自处理。",
+      "from": 135,
+      "to": 182
+    },
+    {
+      "text": "处理一封，按 1 分钟算。",
+      "from": 184,
+      "to": 260
+    },
+    {
+      "text": "先把邮件里的事搬进待办，",
+      "from": 262,
+      "to": 322
+    },
+    {
+      "text": "做完一件，勾掉一件。",
+      "from": 322,
+      "to": 999
+    }
+  ],
+  "checks": [
+    {
+      "frame": 179,
+      "id": "mails",
+      "expect": "128封"
+    },
+    {
+      "frame": 179,
+      "id": "handle",
+      "expect": "76%"
+    },
+    {
+      "frame": 236,
+      "id": "clock",
+      "expect": "00:59"
+    },
+    {
+      "frame": 238,
+      "id": "clock",
+      "expect": "01:00"
+    },
+    {
+      "frame": 374,
+      "id": "todo",
+      "expect": "3/3"
+    }
+  ]
+}

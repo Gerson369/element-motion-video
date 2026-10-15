@@ -1,0 +1,105 @@
+{
+  "seed": 20261015,
+  "checks": [
+    {
+      "frame": 179,
+      "id": "mails",
+      "expect": "128封",
+      "got": "128封",
+      "ok": true
+    },
+    {
+      "frame": 179,
+      "id": "handle",
+      "expect": "76%",
+      "got": "76%",
+      "ok": true
+    },
+    {
+      "frame": 236,
+      "id": "clock",
+      "expect": "00:59",
+      "got": "00:59",
+      "ok": true
+    },
+    {
+      "frame": 238,
+      "id": "clock",
+      "expect": "01:00",
+      "got": "01:00",
+      "ok": true
+    },
+    {
+      "frame": 374,
+      "id": "todo",
+      "expect": "3/3",
+      "got": "3/3",
+      "ok": true
+    },
+    {
+      "frame": 119,
+      "id": "countdown",
+      "expect": "00:58",
+      "got": "00:58",
+      "ok": true
+    },
+    {
+      "frame": 119,
+      "id": "rate",
+      "expect": "12.5%",
+      "got": "12.5%",
+      "ok": true
+    },
+    {
+      "frame": 119,
+      "id": "hhmm",
+      "expect": "10:01",
+      "got": "10:01",
+      "ok": true
+    }
+  ],
+  "seek": [
+    {
+      "frame": 79,
+      "same": true
+    },
+    {
+      "frame": 253,
+      "same": true
+    },
+    {
+      "frame": 134,
+      "same": true
+    },
+    {
+      "frame": 370,
+      "same": true
+    },
+    {
+      "frame": 75,
+      "same": true
+    },
+    {
+      "frame": 287,
+      "same": true
+    },
+    {
+      "frame": 36,
+      "same": true
+    },
+    {
+      "frame": 213,
+      "same": true
+    }
+  ],
+  "bounds": 88,
+  "framesProbed": 13,
+  "countdownSequence": [
+    "01:02",
+    "01:01",
+    "01:00",
+    "00:59",
+    "00:58"
+  ],
+  "errors": []
+}

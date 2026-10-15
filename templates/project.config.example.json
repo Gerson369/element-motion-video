@@ -1,0 +1,11 @@
+{
+  "style": "handnote",
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "logo": null,
+  "outro": null,
+  "voice": null,
+  "captions": true,
+  "note": "logo / outro / voice come from the CURRENT project. This sample has none on purpose; never bake a private voice or brand into the skill."
+}
