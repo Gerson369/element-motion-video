@@ -4,12 +4,12 @@
 
 让文字、数字、时钟、箭头和清单跟着讲解出现、变化、移动、落位。这个开源 Skill 为现有 Remotion 流程补上一层可复用的元素动画：先确定每段要讲明白什么，再决定什么该动。
 
-## 两条案例，一眼看懂
+## 视频与案例，并排看
 
-| 12 秒组件小样 | 51 秒讲解短片 |
-| :---: | :---: |
-| [![12 秒组件小样预览](showcase/sample-12s.jpg)](showcase/sample-12s.mp4) | [![邮件进入待办的讲解短片预览](showcase/email-to-todo.jpg)](showcase/email-to-todo.mp4) |
-| 数字 `128`、进度 `76%`、时钟 `00:59 → 01:00`，最后把邮件事项搬进待办。<br>**[观看 MP4](showcase/sample-12s.mp4)** · [动画方案](examples/sample-12s/motion-plan.json) | 把“邮件 → 待办 → 本人确认”讲成连续流程；元素随着口播推进。<br>**[观看 MP4](showcase/email-to-todo.mp4)** |
+| ▶ 动效视频 | 12 秒组件小样 | 51 秒讲解短片 |
+| :---: | :---: | :---: |
+| [![12 秒动效视频预览；点击播放完整 MP4](showcase/sample-motion.gif)](showcase/sample-12s.mp4) | [![数字、时钟和清单案例画面](showcase/sample-12s.jpg)](showcase/sample-12s.mp4) | [![邮件进入待办的讲解短片画面](showcase/email-to-todo.jpg)](showcase/email-to-todo.mp4) |
+| 点击动图，观看**[有声完整视频](showcase/sample-12s.mp4)**。 | `128`、`76%`、`00:59 → 01:00`，邮件事项搬进待办。<br>[动画方案](examples/sample-12s/motion-plan.json) | “邮件 → 待办 → 本人确认”随着口播推进。<br>**[观看完整 MP4](showcase/email-to-todo.mp4)** |
 
 > 第二条是展示案例：已通过自动逻辑、渲染和媒体检查，人工听看验收仍待完成。片中内容不代表对相关产品能力的独立验证。
 
